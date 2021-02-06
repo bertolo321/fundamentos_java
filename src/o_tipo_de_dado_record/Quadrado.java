@@ -1,17 +1,7 @@
 package o_tipo_de_dado_record;
 
-public class Quadrado {
+public record Quadrado(double lado) {
 	
-	private double lado;
-	
-	
-	
-	public Quadrado(double lado) {
-		this.lado = lado;
-	}
-
-
-
 	public double calcularQuadrado() {
 		return lado * lado;
 	}
